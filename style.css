@@ -36,11 +36,13 @@ backdrop-filter: blur( 9px );
 
 .nav2{
     width: 100%;
-    height: 8%;
+    height: 14%;
     background-color: #ffffff;
+    /* padding-top: 30px; */
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
+    margin-bottom: 20px;
     /* gap: 40px; */
     color: rgb(19, 19, 19);
 }
@@ -55,6 +57,8 @@ backdrop-filter: blur( 9px );
 }
 
 .main{
+    /* margin-top: 40px; */
+    /* padding-top: 30px; */
     width: 100%;
     height: 480px;
     background-color: gainsboro;
@@ -114,7 +118,7 @@ background-size: cover;
 
 .iphone h4{
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 25px;
     color: rgb(245, 245, 245);
     margin-top: 10px;
@@ -126,7 +130,7 @@ background-size: cover;
     left: 40%;
     color: rgb(65, 65, 253);
     margin-top: 15px;
-    font-weight: 500;
+    font-weight: 400;
 
 }
 
@@ -135,7 +139,7 @@ background-size: cover;
 }
 
 .iphone-14{
-    height: 580px;
+    height: 550px;
     width: 100%;
     padding: 40px;
     background-image: url(https://www.apple.com/in/home/heroes/iphone-14/images/hero_iphone14_yellow__eun20sn4imi6_large_2x.jpg);
@@ -160,8 +164,8 @@ background-size: cover;
 
 .iphone-14 h3{
     text-align: center;
-    position: absolute;
-    left: 40%;
+    /* position: absolute; */
+    /* left: 40%; */
     color: rgb(65, 65, 253);
     margin-top: 15px;
     font-weight: 500;
@@ -172,95 +176,309 @@ background-size: cover;
     margin-left: 30px;
 }
 
-.macstudio{
-    margin-top: 30px;
-    height: 580px;
+.page2{
     width: 100%;
-    padding: 40px;
+    height: 550px;
+    display: flex;
+    margin-top: 20px;
+    /* background-color: lightblue; */
+}
+
+
+.page4{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 70px;
+}
+
+.avatar-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 550px;
+    margin-top: 30px;
+    padding-top: 40px;
+    margin-right: 20px;
+   
+}
+
+.text-top h1{
+    color: rgb(37, 37, 37);
+    font-size: 40px;
+    text-align: center;  
+}
+
+.text-top h4{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(36, 36, 36);
+    margin-top: 10px; 
+}
+
+.text-top h3{
+    text-align: center;
+    /* position: absolute; */
+    /* left: 69%; */
+    color: rgb(65, 65, 253);
+    margin-top: 15px;
+    font-weight: 400;
+
+}
+
+
+.bottam-img{
+    background-image: url(https://www.apple.com/in/home/images/promos/why-switch/chirag/promo_switch_to_iphone__dcdfmymgd5ci_small.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+}
+
+.ipad-right{
+    margin-top: 30px;
+    height: 550px;
+    width: 50%;
+    padding-top: 40px;
+    background-image: url(https://www.apple.com/in/home/promos/ipad-pro/images/promo_ipadpro_refresh__evi9utuixwuq_large_2x.jpg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;  
+}
+
+.ipad-right h1{
+    color: rgb(247, 247, 247);
+    font-size: 40px;
+    text-align: center; 
+}
+
+.ipad-right h4{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px; 
+}
+
+.ipad-right h3{
+    text-align: center;
+    /* position: absolute; */
+    /* left: 69%; */
+    color: rgb(65, 65, 253);
+    margin-top: 15px;
+    font-weight: 400;
+
+}
+
+.watch-right h4{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(245, 245, 245);
+    margin-top: 10px;
+}
+
+.watch-right h3{
+    text-align: center;
+    /* position: absolute; */
+    /* left: 66%; */
+    color: rgb(65, 65, 253);
+    margin-top: 15px;
+    font-weight: 400;
+
+}
+
+.watch-right span{
+    margin-left: 25px;
+}
+
+
+.mac-left{
+    margin-right: 20px;
+    height: 500px;
+    width: 50%;
+    padding-top: 40px;
     background-image: url(https://www.apple.com/v/home/bc/images/promos/mac-studio/promo_mac_studio__f6bq9ooh0qaa_large_2x.jpg);
     background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
 
-.macstudio h1{
+.mac-left h1{
     color: rgb(19, 19, 19);
-    font-size: 52px;
+    font-size: 40px;
     text-align: center; 
 }
 
-.macstudio h4{
+.mac-left h4{
     text-align: center;
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: 400;
+    font-size: 20px;
     color: rgb(19, 19, 19);
     margin-top: 10px;
 }
 
-.macstudio h3{
+.mac-left h3{
     text-align: center;
-    position: absolute;
-    left: 40%;
+    /* position: absolute; */
+    /* left: 16%; */
     color: rgb(65, 65, 253);
     margin-top: 15px;
-    font-weight: 500;
+    font-weight: 400;
+    
 
 }
 
-.macstudio span{
-    margin-left: 30px;
+.mac-left span{
+    margin-left: 25px;
 }
 
 
-.applewatch{
-    margin-top: 30px;
-    height: 580px;
-    width: 100%;
-    padding: 40px;
+.watch-right{
+    /* margin-top: 30px; */
+    height: 500px;
+    width: 50%;
+    padding-top: 40px;
     background-image: url(https://www.apple.com/in/home/promos/apple-watch-series-8/images/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large_2x.jpg);
     background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
 
-.applewatch h1{
+.watch-right h1{
     color: rgb(247, 247, 247);
-    font-size: 52px;
+    font-size: 40px;
     text-align: center; 
 }
 
-.applewatch h5{
+.watch-right h5{
     color: rgb(170, 0, 0);
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     text-align: center;
     margin-top: 5px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
-.applewatch h4{
+.watch-right h4{
     text-align: center;
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: 400;
+    font-size: 20px;
     color: rgb(245, 245, 245);
     margin-top: 10px;
 }
 
-.applewatch h3{
+.watch-right h3{
     text-align: center;
-    position: absolute;
-    left: 40%;
+    /* position: absolute; */
+    /* left: 66%; */
     color: rgb(65, 65, 253);
     margin-top: 15px;
-    font-weight: 500;
+    font-weight: 400;
 
 }
 
-.applewatch span{
-    margin-left: 30px;
+.watch-right span{
+    margin-left: 25px;
 }
 
-.footer{
+
+.page3{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+
+.page3-left{
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 500px;
+    width: 50%;
+    padding: 40px;
+    background-image: url(https://www.apple.com/in/home/promos/back-to-school-2023/images/promo_bts2023_startframe__exvt2t1iuxme_large_2x.jpg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.page3-left h1{
+    color: rgb(19, 19, 19);
+    font-size: 40px;
+    text-align: center; 
+}
+
+.page3-left h4{
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(19, 19, 19);
+    margin-top: 10px;
+}
+
+.page3-left h3{
+    text-align: center;
+    /* position: absolute; */
+    /* left: 19%; */
+    color: rgb(65, 65, 253);
+    margin-top: 15px;
+    font-weight: 300;
+    
+
+}
+
+.page3-left span{
+    margin-left: 25px;
+}
+
+
+.page3-right{
+    margin-top: 30px;
+    height: 500px;
+    width: 50%;
+    padding: 40px;
+    background-image: url(https://www.apple.com/v/home/bc/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large_2x.jpg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.page3-right h1{
+    color: rgb(19, 19, 19);
+    font-size: 40px;
+    text-align: center; 
+}
+
+.page3-right h4{
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(19, 19, 19);
+    margin-top: 10px;
+}
+
+.page3-right h3{
+    text-align: center;
+    /* position: absolute; */
+    /* left: 63%; */
+    color: rgb(65, 65, 253);
+    margin-top: 15px;
+    font-weight: 300;
+    
+
+}
+
+.page3-right span{
+    margin-left: 25px;
+}
+
+
+ /* .footer{
+    margin-top: 110px;
     width: 100%;
     height: 10%;
     background: rgba( 63, 63, 63, 0.45 );
@@ -271,7 +489,27 @@ background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+}  */
+
+
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: lightgray;
+    padding: 40px 200px;
 }
 
+.foot-content p{
+      font-size: 12px;
+      font-weight: 200;
+      color: rgb(46, 46, 46);
+      line-height: 17px;
+}
+
+.foot-content hr{
+    margin-top: 20px;
+    /* border: 0.5px solid rgb(77, 76, 76); */
+}
 
 
