@@ -552,8 +552,8 @@ ul .bold{
 
 
 .footer3 p{
-   font-size: 12px;
-   font-weight: 200;
+   font-size: 11px;
+   font-weight: 500;
    margin-top: 40px;
 }
 
@@ -564,6 +564,8 @@ ul .bold{
 
 .last-footer p{
     margin-top: 15px;
+    font-size: 10px;
+    font-weight: 600;
 }
 
 
